@@ -54,6 +54,10 @@ const MainFrame = ({ item }) => {
           textAlign: "left", 
           bottom: 50,
           left: 0, 
+
+          "&:hover": {
+            backgroundImage: "linear-gradient(to bottom right, black, white)"
+          }
         }}
       >
         <ResponsiveTypography ml={6}>

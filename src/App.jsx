@@ -1,10 +1,8 @@
 import "./App.css";
 import { ThemeProvider, createTheme, Container } from "@mui/material";
-import Navbar from "./Component/Navbar";
-import MainFrame from "./Component/ProductPage/MainFrame";
-// import Navbar from "./Component/Navbar";
-// import ProdPage from "./Component/ProductPage/ProdPage";
-import LandingPage from "./container/landingPage/LandingPage";
+import Navbar from "./component/navbar/Navbar";
+import ProdPage from "./component/productPage/ProdPage";
+import LandingPage from "./component/landingPage/LandingPage";
 
 const theme = createTheme({
   palette: {
@@ -20,8 +18,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <LandingPage />
-      {/* <Navbar/> */}
-      <MainFrame/>
+      <Navbar />
+      <ProdPage />
 
     </ThemeProvider>
   );

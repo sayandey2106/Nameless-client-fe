@@ -1,5 +1,6 @@
 import MainFrame from "./MainFrame";
 import img1 from "../../images/Aaaj jaane ki.webp";
+import { Tabs } from "@mui/material";
 
 const item = {
   id: "1",
@@ -14,6 +15,7 @@ const ProdPage = () => {
   return (
     <>
       <MainFrame item={item} />
+      <Tabs />
     </>
   );
 };

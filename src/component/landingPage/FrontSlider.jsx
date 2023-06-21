@@ -3,12 +3,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ArrowBackIos, ArrowForwardIos, Maximize } from "@mui/icons-material";
 import { Box} from "@mui/material";
-import aaj from '../images/Aaaj jaane ki.webp'
-import seven from '../images/hqdefault.webp'
-import diary from '../images/Diary.webp'
-import boroda from '../images/borodaCp.jpg'
-import kolomer from '../images/Kolomer.webp'
-import upolobdhi from '../images/Upolobdhi.webp'
+import aaj from '../../images/Aaaj jaane ki.webp'
+import seven from '../../images/hqdefault.webp'
+import diary from '../../images/Diary.webp'
+import boroda from '../../images/borodaCp.jpg'
+import kolomer from '../../images/Kolomer.webp'
+import upolobdhi from '../../images/Upolobdhi.webp'
 
 
 
